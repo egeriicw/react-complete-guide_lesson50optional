@@ -9,7 +9,7 @@ class App extends Component {
         <ul>
           <li>X Create TWO new components: UserInput and UserOutput</li>
           <li>X UserInput should hold an input element, UserOutput two paragraphs</li>
-          <li>Output multiple UserOutput components in the App component (any paragraph texts of your choice)</li>
+          <li>X Output multiple UserOutput components in the App component (any paragraph texts of your choice)</li>
           <li>Pass a username (of your choice) to UserOutput via props and display it there</li>
           <li>Add state to the App component (=> the username) and pass the username to the UserOutput component</li>
           <li>Add a method to manipulate the state (=> an event-handler method)</li>
@@ -18,6 +18,9 @@ class App extends Component {
           <li>Add two-way-binding to your input (in UserInput) to also display the starting username</li>
           <li>Add styling of your choice to your components/ elements in the components - both with inline styles and stylesheets</li>
         </ul>
+        <UserOutput />
+        <UserOutput />
+        <UserOutput />
       </div>
     );
   }
