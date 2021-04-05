@@ -10,7 +10,7 @@ class App extends Component {
           <li>X Create TWO new components: UserInput and UserOutput</li>
           <li>X UserInput should hold an input element, UserOutput two paragraphs</li>
           <li>X Output multiple UserOutput components in the App component (any paragraph texts of your choice)</li>
-          <li>Pass a username (of your choice) to UserOutput via props and display it there</li>
+          <li>X Pass a username (of your choice) to UserOutput via props and display it there</li>
           <li>Add state to the App component (=> the username) and pass the username to the UserOutput component</li>
           <li>Add a method to manipulate the state (=> an event-handler method)</li>
           <li>Pass the event-handler method reference to the UserInput component and bind it to the input-change event</li>
@@ -20,7 +20,7 @@ class App extends Component {
         </ul>
         <UserOutput />
         <UserOutput />
-        <UserOutput />
+        <UserOutput username="egeriicw" />
       </div>
     );
   }
